@@ -1,0 +1,17 @@
+{
+    "name": "node-proxy"
+  , "version": "0.1.0"
+  , "private": true
+  , "dependencies": {
+      "http-proxy": "*" 
+    , "supervisor": "*"
+  }, "scripts": {
+    "start": "./node_modules/supervisor/lib/cli-wrapper.js -w . server"
+  }, "devDependencies": {
+
+  }, 
+  "engines": {
+    "node": "~0.10",
+    "npm": "~1.2"
+  }
+}
